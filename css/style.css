@@ -147,29 +147,6 @@ header p {
 }
 
 
-/* .top-photo-text2 {
-
-    position: absolute;
-    top: 80%;
-    left: 10%;
-    font-size: 2.7rem;
-    width: 40rem;
-
-} */
-
-/* .top-photo-text2 p {
-    background-color: white;
-    display: inline-block;
-} */
-
-
-/* .top-photo .top-photo-text2 {
-    width: 19.7rem;
-} */
-
-/* .top-photo .my-voice {
-    font-size: 1.8rem;
-} */
 
 /* map */
 .map {
@@ -254,16 +231,14 @@ header p {
 }
 
 .sound-quality,
-.volume-control,
 .color-variations {
     position: relative;
 }
 
-.sq-child,
-.vc-child,
-.cv-child {
+.sq-child {
     display: inline-block;
 }
+
 
 
 /* sound-quality */
@@ -295,30 +270,30 @@ header p {
     color: #E52658;
 }
 
-/* volume-control */
-.volume-control {
-    text-align: right;
-    position: relative;
-}
-
-.volume-control img {
-
-    position: absolute;
-    top: 60%;
-    left: 0%;
-    width: 13rem;
-
-}
 
 /* color-variations */
 .color-variations {
     position: relative;
+    height: 50vh;
 }
 
+.cv-child {
+    display: inline-block;
+}
+.cv-child-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cv-child-text2 {
+    margin-left: 8rem;
+}
 .color-variations img {
     position: absolute;
-    top: 60%;
-    right: 0;
+    top: 35%;
+    left: -30%;
+    transform: rotate(50deg);
 }
 
 
@@ -551,7 +526,13 @@ header p {
 }
 
 .discount {
-    font-size: 3rem;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.discount-color {
+    margin-left: 10px;
+
 }
 
 .discount .tax {
